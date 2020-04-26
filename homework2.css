@@ -1,3 +1,27 @@
 body{
     background-color: aqua;
 }
+.profile-pic{
+    border-radius: 30000px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-width: 20px;
+    border-color: rgb(255, 255, 255);
+}
+
+p{
+    padding-top: 20px;   
+}
+
+.project-card{
+    margin: 46px;
+}
+
+h2{
+    color: white;
+}
+
+.project-pic{
+    border-radius: 30000px;
+
+}
