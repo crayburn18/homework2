@@ -1,12 +1,15 @@
 body{
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-image: url(https://cdn.avopix.com/photos/detail/d_384011_software-developer-programming-code-on-black.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .profile-pic{
-    border-radius: 30000px;
+    border-radius: px;
     padding-bottom: 20px;
     padding-top: 20px;
     border-width: 20px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0);
 }
 
 p{
@@ -18,10 +21,30 @@ p{
 }
 
 h2{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .project-pic{
-    border-radius: 30000px;
+    border-radius: 30px;
 
+}
+.project{
+    text-align: center;
+    color: white;    
+    font-weight: bolder;
+    font-size: 40px;
+}
+.contact{
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.contact2{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: 35px;
 }
