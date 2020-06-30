@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
     <link rel="stylesheet" href="./homework2.css">       
@@ -12,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">CONNOR RAYBURN<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand title" href="./index.html">CONNOR RAYBURN<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,16 +36,17 @@
         </div>
     </nav>
     <main class="container bg-dark">
-        <div class="row card" style="margin: 3rem;">
-            <div class="col card-header text-center "><h4><strong>About Me</strong></h4></div>
+        <div class="row card profile-pic about-me">
+            
             <div class="col">
                 <img src="./homework2-images/WIN_20200425_16_45_05_Pro.jpg" alt="Profile Pic" class="profile-pic col-sm-12 col-md-4 float-left" >
                 <p class="text-center"><strong>Welcome to my portfolio! My name is Connor and I am a Full Stack Web Developer living in Tempe, AZ. I am eager to start my journey in this career field and to showcase the skills I have developed. Now if you will please look below and check out some of my favorite projects to date!</strong></p>
             </div>
         </div>
     </main>
-    <div class="jumbotron bg-dark project">-PROJECTS-</div>
     <main class="container">
+    <div class="card profile-pic bg-dark project project">-PROJECTS-</div>
+    
         <div class="row justify-content-between">
             <div class="card col-sm-12 col-md-5 profile-pic bg-dark">
                 <a href="https://crayburn18.github.io/PasswordGenerator/"><img src="./homework2-images/Screenshot (2).png" class="card-img-top project-pic" alt="..."></a>
@@ -102,7 +104,7 @@
     </main>
     <footer class="footer fixed-bottom bg-dark">
         <span class="text-center  mb-0 ">
-            <h4 class="text-white" >Copyright</h4>
+            <h6 class="text-white" >Copyright © Connor Rayburn 2020</h4>
         </span>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
